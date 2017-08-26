@@ -64,5 +64,16 @@ public class solution {
 		return maxCount;
 
 	}
+	public void main(String[] args) {
+		
+		try {
+			int sol = binary(100);
+			System.out.println(sol);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+	}
 
 }
